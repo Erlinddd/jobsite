@@ -36,3 +36,170 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  margin-top: 45px;
+  text-decoration: black;
+}
+.on-hover:hover{
+  color: blue;
+}
+
+.create-button{
+  float:right;
+  margin-top: 45px;
+ 
+}
+.form {
+  background: #ffffff 0% 0% no-repeat padding-box;
+box-shadow: 10px 10px 18px #10021d12;
+opacity: 1;
+height: 500px;
+margin-top: 100px;
+margin-left: 170px;
+margin-right: 170px;
+
+
+
+}
+
+.dropdown {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.1);
+  background-color: white;
+}
+
+.dropdown-header {
+  padding: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-body {
+  padding: 5px;
+  border-top: 1px solid #E5E8EC;
+  display: none;
+}
+
+.dropdown-body.open {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 10px;
+}
+
+.dropdown-item:hover {
+  cursor: pointer;
+}
+
+.dropdown-item-dot {
+  opacity: 0;
+  color: #91A5BE;
+  transition: all .2s ease-in-out;
+}
+
+.dropdown-item-dot.selected {
+  opacity: 1;
+}
+
+.icon {
+  font-size: 13px;
+  color: #91A5BE;
+  transform: rotate(0deg);
+  transition: all .2s ease-in-out;
+}
+
+.icon.open {
+  transform: rotate(90deg);
+}
+
+.btn-position{
+  
+
+/* margin-top: 300px;
+margin-left: 1300px; */
+ 
+float:right;
+justify-content: flex-end;
+margin-top: 260px;
+
+
+}
+
+.sidenav{
+
+
+float:left;
+margin-right:20px;
+width: 316px;
+height: 799px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 6px 8px 13px #BCBCBC3B;
+opacity: 1;
+}
+
+.detail-title{
+  left: 62px;
+  width: 316px;
+  height: 141px;
+  color:white;
+  font-size:30px;
+  background: #8926EB 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.table-position{
+  top: 120px;
+  left: 423px;
+  width: 1435px;
+  height: 799px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 6px 8px 13px #BCBCBC3B;
+  opacity: 1;
+  
+}
+
+.header-position{
+  top: 120px;
+  left: 423px;
+  width: 1435px;
+  height: 58px;
+  background: #BE87F4 0% 0% no-repeat padding-box;
+  opacity: 1;
+  color:white;
+
+  text-align: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 77%;
+  border: 4px;
+  border-bottom: 1px solid rgb(17, 17, 17);
+ 
+}
+
+td, th,tr {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+  border-collapse: collapse;
+}
+
+
+.asd {
+  top: 120px;
+  left: 423px;
+  width: 1435px;
+  height: 799px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 6px 8px 13px #BCBCBC3B;
+  opacity: 1;
+
+}
+

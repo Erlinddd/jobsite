@@ -1,0 +1,58 @@
+{
+  "company": [
+    {
+      "name": "263 3rd Avenue,New York,NY",
+      "category": "Shed",
+      "status": "In Progress",
+      "id": 1
+    },
+    {
+      "name": "666  Greenwich,New York,NY",
+      "category": "Scaffold",
+      "status": "Completed",
+      "id": 2
+    },
+    {
+      "name": "8911  34 Avenue Queens,New York,NY",
+      "category": " Scaffold",
+      "status": "On Hold",
+      "id": 3
+    },
+    {
+      "name": "8911  34 Avenue Queens,New York,NY",
+      "category": " Scaffold",
+      "status": "On Hold",
+      "id": 4
+    },
+    {
+      "name": "263 3rd Avenue,New York,NY",
+      "category": " Scaffold",
+      "status": "On Hold",
+      "id": 5
+    },
+    {
+      "name": "8911  34 Avenue Queens,New York,NY",
+      "category": " Scaffold",
+      "status": "On Hold",
+      "id": 6
+    },
+    {
+      "name": "8263 3rd Avenue,New York,NY",
+      "category": " Scaffold",
+      "status": "On Hold",
+      "id": 7
+    },
+    {
+      "name": "8911  263 3rd Avenue,NY",
+      "category": " Scaffold",
+      "status": "On Hold",
+      "id": 8
+    },
+    {
+      "name": "a",
+      "category": "",
+      "status": "In Progress",
+      "id": 9
+    }
+  ]
+}
