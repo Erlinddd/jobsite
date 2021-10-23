@@ -6,13 +6,13 @@ import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import CreateForm from './Components/CreateForm/CreateForm';
 import DataTable from './Components/SinglePage.js/DataTable';
 
-function App() {
+ function App() {
   return (
     <div className="App">
   
   <Router>
   <Header/>
-  
+
   <Switch>
     <Route exact path="/" component={HomePage}/>
     <Route path="/create" component={CreateForm}/>

@@ -58,13 +58,14 @@ const DataTable=()=> {
             allowUpdating={true}
            
         >
-            <Popup    title="Items" showTitle={true} width={700} height={525} />
+            <Popup    title="Edit Row" showTitle={true} width={700} height={525} />
             <Form>
               <Item itemType="group" colCount={2} colSpan={2}>
-                <Item dataField="Nr" />
+       
                 <Item dataField="Items" />
-                <Item dataField="Quantity" />
-                <Item dataField="Description" />
+                <Item dataField="Quantity"   width={170}  colSpan={2} />
+                <Item dataField="Description" editorType="dxTextArea"
+                  colSpan={2}   />
             
                 <Item
                   dataField="Notes"
@@ -72,7 +73,7 @@ const DataTable=()=> {
                   colSpan={2}
                   editorOptions={notesEditorOptions} />
               </Item>
-
+         
              
             </Form>
           </Editing>
@@ -81,6 +82,7 @@ const DataTable=()=> {
           <Column dataField="Items" />
           <Column dataField="Quantity" />
           <Column dataField="Description" width={170} />
+          <Column dataField="Notes" />
         </DataGrid>
       </div>
       

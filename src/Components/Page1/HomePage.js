@@ -25,7 +25,7 @@ function createData(name, calories, fat, carbs, protein) {
 
 export default function HomePage() {
  const [repo,setRepo]=useState([])
-  
+
 
 
 
@@ -62,7 +62,7 @@ const getRepo=()=>{
         <TableBody>
           
           {repo.map((row) => (
-         
+        
             <TableRow
               key={row.id}
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
@@ -75,8 +75,8 @@ const getRepo=()=>{
                    {row.name}
                    </Link>
               </TableCell>
-             
-              <TableCell  className="status" align="right" > { row.status}</TableCell>
+                
+              <TableCell  className="status" align="right" > <p>{ row.status}</p></TableCell>
            
             </TableRow>
 

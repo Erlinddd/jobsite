@@ -1,12 +1,11 @@
 import React,{useState} from "react";
 import {useForm} from 'react-hook-form'
-import {Form,Row,Col,Button,DropdownButton,Dropdown} from 'react-bootstrap'
-import Select from 'react-select';
+import {Form,Row,Col,Button} from 'react-bootstrap'
+
 import makeAnimated from 'react-select/animated';
 import axios from 'axios'
 import {withRouter,useHistory} from 'react-router-dom';
-import Stack from '@mui/material/Stack';
-import Chip from '@mui/material/Chip';
+
 import Autocomplete from '@mui/material/Autocomplete';
 import TextField from '@mui/material/TextField';
 import { ToastContainer, toast } from 'react-toastify';
@@ -54,7 +53,7 @@ const CreateForm = (props) => {
 
 <Form.Group className="mb-3" controlId="formBasicEmail">
     <Form.Label style={{float:"left"}}>Name</Form.Label>
-    <Form.Control  {...register('name', { required: true })} name="name" placeholder="Start typing to project name" />
+   <Form.Control  {...register('name', { required: true })} name="name" placeholder="Start typing to project name" /> 
   </Form.Group>
  
 
@@ -74,13 +73,11 @@ const CreateForm = (props) => {
             <TextField 
             name="category"
             {...register('category')}
-            {...params} label="Select the Category" placeholder="Favorites" />
+            {...params} label="Select the Category" placeholder="Select the category" />
           
         )}
       /> 
-
  
-       
       </Col>
 
       <Col sm={3}>
